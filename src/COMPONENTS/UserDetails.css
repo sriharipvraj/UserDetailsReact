@@ -1,0 +1,25 @@
+.ne{
+    display: flex;
+    gap: 100px;
+}
+.faddress{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+
+}
+
+.form{
+    /* border: 1px solid black; */
+    padding: 30px ;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form button{
+    width: 180px;
+    margin-top: 20px;
+    margin-right: 150px;
+    background-color: blue;
+    height: 40px;
+}

@@ -1,0 +1,36 @@
+.Userpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 100px;
+    
+    gap: 50px;
+}
+.user{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    border-radius: 20px;
+    width: 350px;
+    height: 170px;
+
+    
+}
+
+.details{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;   
+}
+.details button{
+    height: 30px;
+    width: 60px;
+    background: white;
+    border: 1px solid #EDE9E9;
+    border-radius: 9px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.details p{
+    color: #9A9A9A;
+}
